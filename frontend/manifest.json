@@ -1,0 +1,14 @@
+{
+  "name": "银龄通",
+  "appid": "__UNI__SILVER_LIFE__",
+  "description": "面向老年人的适老化数字生活服务小程序",
+  "versionName": "1.0.0",
+  "versionCode": "100",
+  "transformPx": false,
+  "mp-weixin": {
+    "appid": "",
+    "setting": {
+      "urlCheck": false
+    }
+  }
+}

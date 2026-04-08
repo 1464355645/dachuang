@@ -1,0 +1,276 @@
+{
+  "pages": [
+    {
+      "path": "pages/tabbar/home/index",
+      "style": {
+        "navigationBarTitleText": "\u9996\u9875"
+      }
+    },
+    {
+      "path": "pages/tabbar/service/index",
+      "style": {
+        "navigationBarTitleText": "\u670d\u52a1"
+      }
+    },
+    {
+      "path": "pages/tabbar/profile/index",
+      "style": {
+        "navigationBarTitleText": "\u4e2a\u4eba\u4e2d\u5fc3"
+      }
+    },
+    {
+      "path": "pages/entertainment/index",
+      "style": {
+        "navigationBarTitleText": "\u5a31\u4e50\u9891\u9053"
+      }
+    },
+    {
+      "path": "pages/service/life-form/index",
+      "style": {
+        "navigationBarTitleText": "\u751f\u6d3b\u670d\u52a1"
+      }
+    },
+    {
+      "path": "pages/service/travel/list/index",
+      "style": {
+        "navigationBarTitleText": "\u51fa\u884c\u6e38\u73a9"
+      }
+    },
+    {
+      "path": "pages/service/travel/detail/index",
+      "style": {
+        "navigationBarTitleText": "\u51fa\u884c\u8be6\u60c5"
+      }
+    },
+    {
+      "path": "pages/service/affair/form/index",
+      "style": {
+        "navigationBarTitleText": "\u7f51\u4e0a\u529e\u4e8b"
+      }
+    },
+    {
+      "path": "pages/service/affair/history/index",
+      "style": {
+        "navigationBarTitleText": "\u529e\u4e8b\u8bb0\u5f55"
+      }
+    },
+    {
+      "path": "pages/service/bills/list/index",
+      "style": {
+        "navigationBarTitleText": "\u6c34\u7535\u6c14\u7f34\u8d39"
+      }
+    },
+    {
+      "path": "pages/service/bills/detail/index",
+      "style": {
+        "navigationBarTitleText": "\u8d26\u5355\u8be6\u60c5"
+      }
+    },
+    {
+      "path": "pages/service/insurance/index",
+      "style": {
+        "navigationBarTitleText": "\u533b\u4fdd\u793e\u4fdd"
+      }
+    },
+    {
+      "path": "pages/service/insurance/detail/index",
+      "style": {
+        "navigationBarTitleText": "\u8bb0\u5f55\u8be6\u60c5"
+      }
+    },
+    {
+      "path": "pages/service/facility/list/index",
+      "style": {
+        "navigationBarTitleText": "\u5468\u8fb9\u8bbe\u65bd"
+      }
+    },
+    {
+      "path": "pages/service/facility/detail/index",
+      "style": {
+        "navigationBarTitleText": "\u8bbe\u65bd\u8be6\u60c5"
+      }
+    },
+    {
+      "path": "pages/health/assistant/index",
+      "style": {
+        "navigationBarTitleText": "\u533b\u7597\u5065\u5eb7\u670d\u52a1"
+      }
+    },
+    {
+      "path": "pages/health/discomfort/index",
+      "style": {
+        "navigationBarTitleText": "\u8eab\u4f53\u4e0d\u9002\u67e5\u8be2"
+      }
+    },
+    {
+      "path": "pages/health/discomfort/result/index",
+      "style": {
+        "navigationBarTitleText": "\u5efa\u8bae\u8bf4\u660e"
+      }
+    },
+    {
+      "path": "pages/health/medication/index",
+      "style": {
+        "navigationBarTitleText": "\u7528\u836f\u63d0\u9192"
+      }
+    },
+    {
+      "path": "pages/health/medication/form/index",
+      "style": {
+        "navigationBarTitleText": "\u65b0\u589e\u7528\u836f\u63d0\u9192"
+      }
+    },
+    {
+      "path": "pages/health/knowledge/index",
+      "style": {
+        "navigationBarTitleText": "\u5065\u5eb7\u77e5\u8bc6"
+      }
+    },
+    {
+      "path": "pages/health/knowledge-detail/index",
+      "style": {
+        "navigationBarTitleText": "\u77e5\u8bc6\u8be6\u60c5"
+      }
+    },
+    {
+      "path": "pages/health/archive/index",
+      "style": {
+        "navigationBarTitleText": "\u5065\u5eb7\u6863\u6848"
+      }
+    },
+    {
+      "path": "pages/health/registration/index",
+      "style": {
+        "navigationBarTitleText": "\u95e8\u8bca\u6302\u53f7\u9884\u7ea6"
+      }
+    },
+    {
+      "path": "pages/health/registration/doctors/index",
+      "style": {
+        "navigationBarTitleText": "\u53f7\u6e90\u5217\u8868"
+      }
+    },
+    {
+      "path": "pages/health/registration/form/index",
+      "style": {
+        "navigationBarTitleText": "\u586b\u5199\u9884\u7ea6\u4fe1\u606f"
+      }
+    },
+    {
+      "path": "pages/health/registration/records/index",
+      "style": {
+        "navigationBarTitleText": "\u9884\u7ea6\u8bb0\u5f55"
+      }
+    },
+    {
+      "path": "pages/health/checkup/index",
+      "style": {
+        "navigationBarTitleText": "\u5065\u5eb7\u4f53\u68c0\u9884\u7ea6"
+      }
+    },
+    {
+      "path": "pages/health/checkup/detail/index",
+      "style": {
+        "navigationBarTitleText": "\u5957\u9910\u8be6\u60c5"
+      }
+    },
+    {
+      "path": "pages/health/checkup/form/index",
+      "style": {
+        "navigationBarTitleText": "\u586b\u5199\u4f53\u68c0\u9884\u7ea6"
+      }
+    },
+    {
+      "path": "pages/health/checkup/records/index",
+      "style": {
+        "navigationBarTitleText": "\u4f53\u68c0\u9884\u7ea6\u8bb0\u5f55"
+      }
+    },
+    {
+      "path": "pages/learning/list/index",
+      "style": {
+        "navigationBarTitleText": "\u5b66\u4e60\u670d\u52a1"
+      }
+    },
+    {
+      "path": "pages/learning/content-list/index",
+      "style": {
+        "navigationBarTitleText": "\u5b66\u4e60\u5185\u5bb9"
+      }
+    },
+    {
+      "path": "pages/learning/detail/index",
+      "style": {
+        "navigationBarTitleText": "\u5b66\u4e60\u8be6\u60c5"
+      }
+    },
+    {
+      "path": "pages/learning/archive/index",
+      "style": {
+        "navigationBarTitleText": "\u5b66\u4e60\u6863\u6848"
+      }
+    },
+    {
+      "path": "pages/activity/list/index",
+      "style": {
+        "navigationBarTitleText": "\u793e\u533a\u6d3b\u52a8"
+      }
+    },
+    {
+      "path": "pages/activity/publish/index",
+      "style": {
+        "navigationBarTitleText": "\u53d1\u5e03\u6d3b\u52a8"
+      }
+    },
+    {
+      "path": "pages/community/post-detail/index",
+      "style": {
+        "navigationBarTitleText": "\u5e16\u5b50\u8be6\u60c5"
+      }
+    },
+    {
+      "path": "pages/profile/edit/index",
+      "style": {
+        "navigationBarTitleText": "\u4fee\u6539\u8d44\u6599"
+      }
+    },
+    {
+      "path": "pages/profile/life-book/index",
+      "style": {
+        "navigationBarTitleText": "\u751f\u6d3b\u8d26\u672c"
+      }
+    },
+    {
+      "path": "pages/common/placeholder/index",
+      "style": {
+        "navigationBarTitleText": "\u529f\u80fd\u8bf4\u660e"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "\u94f6\u9f84\u901a",
+    "navigationBarBackgroundColor": "#F7F8F2",
+    "backgroundColor": "#F7F8F2"
+  },
+  "tabBar": {
+    "color": "#7F8C8D",
+    "selectedColor": "#1F8A70",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/tabbar/home/index",
+        "text": "\u9996\u9875"
+      },
+      {
+        "pagePath": "pages/tabbar/service/index",
+        "text": "\u670d\u52a1"
+      },
+      {
+        "pagePath": "pages/tabbar/profile/index",
+        "text": "\u6211\u7684"
+      }
+    ]
+  }
+}

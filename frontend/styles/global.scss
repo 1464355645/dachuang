@@ -1,0 +1,103 @@
+@import '../uni.scss';
+
+page {
+  background: $page-bg;
+  color: $text-primary;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+view,
+text,
+button,
+input,
+textarea,
+picker {
+  box-sizing: border-box;
+}
+
+.page-container {
+  min-height: 100vh;
+  padding: 24rpx;
+  padding-bottom: 160rpx;
+}
+
+.page-title {
+  font-size: 42rpx;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.page-subtitle {
+  margin-top: 8rpx;
+  color: $text-secondary;
+  font-size: 28rpx;
+}
+
+.section-gap {
+  margin-top: 24rpx;
+}
+
+.card {
+  background: $card-bg;
+  border-radius: 24rpx;
+  padding: 24rpx;
+  box-shadow: 0 8rpx 32rpx rgba(31, 138, 112, 0.08);
+}
+
+.primary-btn {
+  height: 92rpx;
+  line-height: 92rpx;
+  border-radius: 24rpx;
+  background: $theme-color;
+  color: #fff;
+  font-size: 32rpx;
+  font-weight: 600;
+}
+
+.secondary-btn {
+  height: 88rpx;
+  line-height: 88rpx;
+  border-radius: 24rpx;
+  background: $theme-light;
+  color: $theme-color;
+  font-size: 30rpx;
+  font-weight: 600;
+}
+
+.tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 8rpx 18rpx;
+  border-radius: 999rpx;
+  background: #f2f7f5;
+  color: $theme-color;
+  font-size: 24rpx;
+}
+
+.input-label {
+  margin-bottom: 12rpx;
+  font-size: 28rpx;
+  font-weight: 600;
+}
+
+.input-box,
+.textarea-box {
+  width: 100%;
+  border: 2rpx solid #dce7e1;
+  border-radius: 18rpx;
+  background: #fff;
+  padding: 20rpx;
+  font-size: 30rpx;
+}
+
+.textarea-box {
+  min-height: 180rpx;
+}
+
+.empty-text {
+  padding: 40rpx 0;
+  color: $text-secondary;
+  font-size: 28rpx;
+  text-align: center;
+}
