@@ -102,3 +102,23 @@ class LifeRecordUpdateIn(BaseModel):
   eventDate: str | None = None
   remark: str | None = None
   status: str | None = None
+
+
+class VoiceChatIn(BaseModel):
+  message: str
+  context: str | None = None
+
+
+class VoiceTtsIn(BaseModel):
+  text: str
+
+
+class VoiceReadIn(BaseModel):
+  title: str
+  sections: list[str] = Field(default_factory=list)
+
+
+class VoiceReadOut(BaseModel):
+  code: int
+  message: str
+  data: dict

@@ -189,6 +189,7 @@ import {
   toggleCommunityCollect,
   toggleCommunityLike
 } from '../../../api/community-home'
+import { saveReadablePayload } from '../../../utils/voice-reader'
 
 export default {
   components: {
@@ -345,10 +346,25 @@ export default {
       })
     },
     handleVoice() {
-      uni.showToast({
-        title: '语音搜索准备中',
-        icon: 'none'
+      saveReadablePayload(this.buildReadablePayload())
+      uni.navigateTo({
+        url: '/pages/health/assistant/index?source=home'
       })
+    },
+    buildReadablePayload() {
+      return {
+        title: '首页导读',
+        sections: [
+          `${this.user.nickname || '您好'}，欢迎来到银龄通首页。`,
+          this.healthTips.summary ? `今日健康提醒：${this.healthTips.summary}。` : '',
+          ...(this.healthTips.tips || []).map((item) => `提醒：${item}。`),
+          this.weather.city ? `${this.weather.city}天气${this.weather.weather}，气温${this.weather.temperature}。` : '',
+          this.weather.dressingTip ? `穿衣建议：${this.weather.dressingTip}。` : '',
+          this.announcements[0] ? `社区公告：${this.announcements[0].title}。${this.announcements[0].content}` : '',
+          this.activities[0] ? `推荐活动：${this.activities[0].title}，时间${this.activities[0].time}，地点${this.activities[0].location}。` : '',
+          '您可以继续点击出行游玩、网上办事、水电气缴费、学习服务等入口。'
+        ].filter(Boolean)
+      }
     },
     handleCircle(circle) {
       uni.navigateTo({

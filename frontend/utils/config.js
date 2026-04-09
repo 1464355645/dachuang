@@ -20,5 +20,7 @@ export const STORAGE_KEYS = {
   communityPosts: 'silver_community_posts',
   communityComments: 'silver_community_comments',
   communityCheckin: 'silver_community_checkin',
-  communityReports: 'silver_community_reports'
+  communityReports: 'silver_community_reports',
+  voiceReadablePayload: 'silver_voice_readable_payload',
+  voiceChatHistory: 'silver_voice_chat_history'
 }
