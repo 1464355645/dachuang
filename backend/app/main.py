@@ -6,7 +6,7 @@ from fastapi.staticfiles import StaticFiles
 
 from app.core.config import settings
 from app.db import Base, SessionLocal, engine
-from app.routers import activity, auth, health, home, learning, life, life_services, users
+from app.routers import activity, auth, health, home, learning, life, life_services, users, voice
 from app.seed import init_seed_data
 
 app = FastAPI(title=settings.app_name)
@@ -42,6 +42,7 @@ app.include_router(learning.router, prefix=settings.api_prefix)
 app.include_router(activity.router, prefix=settings.api_prefix)
 app.include_router(life.router, prefix=settings.api_prefix)
 app.include_router(life_services.router, prefix=settings.api_prefix)
+app.include_router(voice.router, prefix=settings.api_prefix)
 
 
 @app.get('/')

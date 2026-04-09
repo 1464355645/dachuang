@@ -6,45 +6,13 @@
 </template>
 
 <script>
-import { getVoiceGreeting } from '../../api/home'
-import { ENABLE_REMOTE_AUDIO } from '../../utils/config'
-
 export default {
   name: 'VoiceAssistButton',
-  data() {
-    return {
-      audioContext: null
-    }
-  },
   methods: {
-    async handleClick() {
-      const voiceData = await getVoiceGreeting()
-      uni.showModal({
-        title: '语音提醒',
-        content: voiceData.text || '您好，欢迎使用银龄通。',
-        showCancel: false
+    handleClick() {
+      uni.navigateTo({
+        url: '/pages/health/assistant/index'
       })
-
-      if (ENABLE_REMOTE_AUDIO && voiceData.audioUrl) {
-        try {
-          if (!this.audioContext) {
-            this.audioContext = uni.createInnerAudioContext()
-          }
-          this.audioContext.src = voiceData.audioUrl
-          this.audioContext.play()
-        } catch (error) {
-          uni.showToast({
-            title: '语音播放失败',
-            icon: 'none'
-          })
-        }
-      }
-    }
-  },
-  beforeDestroy() {
-    if (this.audioContext) {
-      this.audioContext.destroy()
-      this.audioContext = null
     }
   }
 }
